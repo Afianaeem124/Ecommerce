@@ -41,7 +41,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         splashColor: Colors.transparent,
         highlightColor: Colors.transparent,
-        buttonColor: redIconwithButton,
+        buttonTheme: ButtonThemeData(buttonColor:redIconwithButton, ),
+       
         scaffoldBackgroundColor: greyScaffoldbf,
         // AppBar Theme Data
         appBarTheme: AppBarTheme(

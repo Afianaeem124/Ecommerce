@@ -70,7 +70,7 @@ class CustomButton extends StatelessWidget {
           borderRadius: radius >= 1
               ? BorderRadius.circular(radius)
               : BorderRadius.circular(25),
-          color: buttonBackgroundColor ?? Theme.of(context).buttonColor,
+          color: buttonBackgroundColor ??Color.fromARGB(255, 192, 35, 24),
         ),
         child: Center(
           child: Text(
